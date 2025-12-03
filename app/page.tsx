@@ -5,9 +5,18 @@ import Image from "next/image";
 import { Card } from "flowbite-react";
 import { DarkThemeToggle } from "flowbite-react";
 import image1 from "../public/image1.jpg"
-import image2 from "../public/image1.jpg"
-import image3 from "../public/image1.jpg"
-import image4 from "../public/image1.jpg"
+import aerial1 from "../public/aerial1.jpeg"
+import aerial2 from "../public/aerial2.jpeg"
+import aerial3 from "../public/aerial3.jpeg"
+import reception1 from "../public/reception1.jpeg"
+import reception2 from "../public/reception2.jpeg"
+import mission from "../public/mission.jpeg"
+import corridor1 from "../public/corridor1.jpeg"
+import corridor2 from "../public/corridor2.jpeg"
+import library from "../public/library.jpeg"
+import corridor3 from "../public/corridor3.jpeg"
+import corridor4 from "../public/corridor4.jpeg"
+import lib1 from "../public/lib1.jpeg"
 import Header from "@/components/header";
 import AboutUs from "@/components/aboutus";
 import Departments from "@/components/departments";
@@ -16,6 +25,7 @@ import ScrollAnimate from "../components/scrollAnimate"
 import StudentLife from "@/components/student"
 import StudentCouncil from "@/components/council"
 import SeniorManagement from "@/components/seniorManagement";
+
 import "animate.css"
 export default function Home() {
   return (
@@ -23,7 +33,7 @@ export default function Home() {
      <section
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: "url('/study-group-african-people.jpg')", 
+        backgroundImage: "url('/reception2.jpeg')", 
       }}
     >
       
@@ -58,19 +68,26 @@ export default function Home() {
       </div>
       </ScrollAnimate>
     </section>
-    <AboutUs />
-     <div className=" animate__animated animate__fadeIn animate__slower-3s h-56 sm:h-64 md:h-screen xl:h-screen 2xl:h-screen mt-1">
+    <div className=" animate__animated animate__fadeIn animate__slower-3s h-56 sm:h-64 md:h-screen xl:h-screen 2xl:h-screen mt-1">
        
       <Carousel>
-        <Image src= {image1} alt=".."/>
-        <Image src= {image2} alt=".."/>
-        <Image src= {image3} alt=".."/>
-        <Image src= {image4} alt=".."/>
+        <Image src= {aerial1} alt=".."/>
+        <Image src= {aerial2} alt=".."/>
+        <Image src= {aerial3} alt=".."/>
+        <Image src= {reception1} alt=".."/>
+        <Image src= {reception2} alt=".."/>
+        <Image src= {corridor1} alt=".."/>
+        <Image src= {corridor2} alt=".."/>
+        <Image src= {corridor3} alt=".."/>
+        <Image src= {corridor4} alt=".."/>
+        <Image src= {lib1} alt=".."/>
         
         
       </Carousel>
     
     </div>
+    <AboutUs />
+     
     <SeniorManagement />
     <Departments />
     <StudentLife />
