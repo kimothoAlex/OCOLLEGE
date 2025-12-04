@@ -52,7 +52,7 @@ const FashionPage = () => {
       
     </section>
     <Courses />
-    <CareerOpportunitiesICT />
+    {/* <CareerOpportunitiesICT /> */}
     <CallToAction />
     </>
     

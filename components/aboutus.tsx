@@ -8,7 +8,7 @@ import ScrollAnimate from "./scrollAnimate";
 export default function AboutUs () {
 
   return (
-     <div className="m-4 sm:m-10">
+     <div id="aboutus" className="m-4 sm:m-10">
       <div className="bg-blue-600 text-gray-200 w-full rounded-lg shadow-lg p-6 sm:p-10">
         {/* Title */}
         <h1 className="text-center text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-6">

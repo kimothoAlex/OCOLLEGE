@@ -35,14 +35,14 @@ const FashionPage = () => {
 
         {/* Call to Actions */}
         <div className="flex justify-center gap-4">
-          <a
+          {/* <a
             href="#courses"
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Explore Courses
-          </a>
+          </a> */}
           <a
-            href="#apply"
+            href="/apply"
             className="bg-white text-blue-900 hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Apply Now
@@ -52,7 +52,7 @@ const FashionPage = () => {
       
     </section>
     <Courses />
-    <CareerOpportunitiesICT />
+  {/* <CareerOpportunitiesICT /> */}
     <CallToAction />
     </>
     

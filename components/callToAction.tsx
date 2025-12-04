@@ -1,12 +1,13 @@
 import React from 'react'
 import studyImage from "../public/study-group-african-people.jpg"
+import logooca from "../public/logooca.jpeg"
 import Image from 'next/image';
 import Link from 'next/link';
 const CallToAction = () => {
   return (
  <section
       className="relative bg-cover bg-center text-white"
-      style={{ backgroundImage: `url(${studyImage.src})` }}
+      style={{ backgroundImage: `url(${logooca.src})` }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -33,7 +34,7 @@ const CallToAction = () => {
           Empower yourself with the knowledge and skills to make a positive impact in the world.
         </p>
 
-        <p className="mt-6 text-xl font-semibold">📞 Call Now: 0714268723</p>
+        <p className="mt-6 text-xl font-semibold">📞 Call Now: 0721720655/0777892344</p>
 
         <Link href={"/apply"} className="bg-white text-blue-900 font-bold px-8 py-4 rounded-lg mt-8 hover:bg-blue-200 transition duration-300">
           Apply Now

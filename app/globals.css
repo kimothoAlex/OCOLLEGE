@@ -5,4 +5,7 @@
 :root {
   --animate-duration: 3s;
   --animate-delay: 1s;
+  html {
+  scroll-behavior: smooth;
+}
 }

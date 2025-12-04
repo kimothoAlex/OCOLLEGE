@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-blue-600 dark:bg-blue-900 text-white py-10">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-extrabold tracking-wide uppercase">
-          Orthodox College of Africa
+          Orthodox College of Africa & Teachers Training College
         </h2>
         <p className="mt-4 text-lg text-gray-200">
           Empowering Generations Through Knowledge & Technology
@@ -29,9 +29,9 @@ export default function Footer() {
           </div>
             {/* Contact Info */}
         <div className="space-y-2 text-lg">
-          <p>📍 Address: [Your Address Here], Kenya</p>
-          <p>📞 Phone: <a href="tel:+254700000000" className="hover:text-yellow-300">+254 700 000 000</a></p>
-          <p>✉️ Email: <a href="mailto:info@oca.ac.ke" className="hover:text-yellow-300">info@oca.ac.ke</a></p>
+          <p>📍 Address: P.O. BOX 34075-00100 Nairobi, Kenya</p>
+          <p>📞 Phone: <a href="0721720655/" className="hover:text-yellow-300">+254 700 000 000</a></p>
+          <p>✉️ Email: <a href="mailto:octoafrica@gmail.com" className="hover:text-yellow-300">octoafrica@gmail.com</a></p>
         </div>
           <p className="mb-6">
           Accredited by the{" "}
@@ -45,7 +45,7 @@ export default function Footer() {
           for TVET and business courses <br /> and recognized as an official KNEC exam center.
         </p>
         <div className="mt-6 border-t border-blue-400/50 pt-4 text-sm text-gray-300">
-          © {new Date().getFullYear()} Orthodox College of Africa. All Rights Reserved.
+          © {new Date().getFullYear()} Orthodox College of Africa & TTC. All Rights Reserved.
         </div>
       </div>
     </footer>

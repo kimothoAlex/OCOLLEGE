@@ -3,7 +3,7 @@ import Image from "next/image";
 // Replace with actual images
 import principalImg from "../public/bishop1.jpg";
 import deputyImg from "../public/rev.jpeg";
-import registrarImg from "../public/bishop1.jpg";
+import registrarImg from "../public/revpaul.jpg";
 import deanImg from "../public/bishop1.jpg";
 
 export default function SeniorManagement() {
@@ -22,17 +22,17 @@ export default function SeniorManagement() {
     bio: "Oversees academic programs and faculty development, supporting students to reach their full potential.",
   },
   {
-    name: "Peter Otieno",
+    name: "Rev. Fr. Paul Njoroge",
     title: "Registrar",
     image: registrarImg,
     bio: "Responsible for student admissions, records, and exam administration, ensuring smooth academic operations.",
   },
-  {
-    name: "Dr. Mary Achieng",
-    title: "Dean of Students",
-    image: deanImg,
-    bio: "Advocates for student welfare, providing mentorship and fostering a supportive learning environment.",
-  },
+  // {
+  //   name: "Dr. Mary Achieng",
+  //   title: "Dean of Students",
+  //   image: deanImg,
+  //   bio: "Advocates for student welfare, providing mentorship and fostering a supportive learning environment.",
+  // },
 ]
 
 const archbishop = managementTeam.find(member => member.featured)
@@ -76,7 +76,7 @@ return (
     )}
 
     {/* OTHER MANAGEMENT */}
-    <div className="grid gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+    <div className="grid gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto">
       {others.map((member, index) => (
         <div
           key={index}

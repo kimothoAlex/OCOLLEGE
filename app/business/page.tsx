@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Courses from '@/components/business';
 import CallToAction from '@/components/callToAction';
-import CareerOpportunitiesICT from '@/components/careers';
+import CareerOpportunitiesBUS from '@/components/buscareers';
 const BusinessPage = () => {
   
   return (
@@ -35,14 +35,14 @@ const BusinessPage = () => {
 
         {/* Call to Actions */}
         <div className="flex justify-center gap-4">
-          <a
+          {/* <a
             href="#courses"
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Explore Courses
-          </a>
+          </a> */}
           <a
-            href="#apply"
+            href="/apply"
             className="bg-white text-blue-900 hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Apply Now
@@ -52,7 +52,7 @@ const BusinessPage = () => {
       
     </section>
     <Courses />
-    <CareerOpportunitiesICT />
+  <CareerOpportunitiesBUS />
     <CallToAction />
     </>
     

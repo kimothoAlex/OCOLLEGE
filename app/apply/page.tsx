@@ -200,9 +200,10 @@ export default function AdmissionsForm() {
         </select>
 </div>
         {/* Submit */}
-        <button
+        <button 
+          disabled
           type="submit"
-          className="w-full bg-blue-600 text-white p-3 rounded-lg font-bold hover:bg-blue-700 transition"
+          className=" w-full bg-blue-600 text-white p-3 rounded-lg font-bold hover:bg-blue-700 transition"
         >
           {loading ? "Loading..." : 'Apply Now'}
         </button>

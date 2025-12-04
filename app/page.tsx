@@ -17,6 +17,7 @@ import library from "../public/library.jpeg"
 import corridor3 from "../public/corridor3.jpeg"
 import corridor4 from "../public/corridor4.jpeg"
 import lib1 from "../public/lib1.jpeg"
+import complab from "../public/complab.jpeg"
 import Header from "@/components/header";
 import AboutUs from "@/components/aboutus";
 import Departments from "@/components/departments";
@@ -44,7 +45,7 @@ export default function Home() {
       <div className="relative max-w-7xl mx-auto px-6 text-center text-white">
        
         <h1 className="text-4xl md:text-6xl font-extrabold">
-          Orthodox College of Africa
+          Orthodox College of Africa and Teachers Training College
         </h1>
 
       
@@ -59,7 +60,7 @@ export default function Home() {
         
         <div className="mt-6">
           <a
-            href="#Departments"
+            href="#departments"
             className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-yellow-300 transition"
           >
             Explore Our Courses
@@ -72,6 +73,7 @@ export default function Home() {
        
       <Carousel>
         <Image src= {aerial1} alt=".."/>
+        <Image src= {complab} alt=".."/>
         <Image src= {aerial2} alt=".."/>
         <Image src= {aerial3} alt=".."/>
         <Image src= {reception1} alt=".."/>
@@ -91,7 +93,7 @@ export default function Home() {
     <SeniorManagement />
     <Departments />
     <StudentLife />
-    <StudentCouncil />
+    {/* <StudentCouncil /> */}
     <CallToAction />
     </>
    

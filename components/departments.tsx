@@ -12,6 +12,13 @@ import education from "../public/education.jpg";
 
 export default function DepartmentsSection() {
   const departments = [
+     {
+      name: "Department of Education",
+      image: education,
+      description:
+        "Shaping competent and passionate educators for the future of learning.",
+      link: "/departments/education",
+    },
     {
       name: "Department of Social Work",
       image: socialWork, 
@@ -47,17 +54,11 @@ export default function DepartmentsSection() {
         "Providing deep biblical knowledge and pastoral training for ministry work.",
       link: "/departments/theology",
     },
-    {
-      name: "Department of Education",
-      image: education,
-      description:
-        "Shaping competent and passionate educators for the future of learning.",
-      link: "/departments/education",
-    },
+   
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="departments" className="py-16 bg-gray-50 ">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">
