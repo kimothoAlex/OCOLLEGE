@@ -30,7 +30,7 @@ export default function Footer() {
             {/* Contact Info */}
         <div className="space-y-2 text-lg">
           <p>📍 Address: P.O. BOX 34075-00100 Nairobi, Kenya</p>
-          <p>📞 Phone: <a href="0721720655/" className="hover:text-yellow-300">+254 700 000 000</a></p>
+          <p>📞 Phone: 0721720655/0777892344</p>
           <p>✉️ Email: <a href="mailto:octoafrica@gmail.com" className="hover:text-yellow-300">octoafrica@gmail.com</a></p>
         </div>
           <p className="mb-6">
