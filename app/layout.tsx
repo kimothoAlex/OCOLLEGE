@@ -59,6 +59,7 @@ export const metadata: Metadata = {
       "Professional teacher training for a brighter future in education.",
     images: ["/reception1.jpeg"],
   },
+  
 };
 
 export default function RootLayout({
@@ -68,7 +69,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
+      <head 
+      
+      >
+        <meta name="google-site-verification" content="xnaZIJjX-jio0n2iI1ZXSb1CHjSV802cCUpXHNzQyQw" />
+        <meta name="description" content="Orthodox College of Africa – Education, Training, and Community Programs" />
+<meta name="keywords" content="Orthodox College, Africa, TTC, Education, Training" />
+<meta property="og:title" content="Orthodox College of Africa & TTC" />
+<meta property="og:description" content="Providing quality education and teacher training programs in Africa" />
+<meta property="og:type" content="website" />
+
         <ThemeModeScript />
       </head>
       <body className={inter.className}>
