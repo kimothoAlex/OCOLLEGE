@@ -13,7 +13,7 @@ const ICTPage = () => {
       {/* Background Image */}
       <div className="absolute inset-0  h-full w-full">
         <Image
-          src="/ict.jpg" // Put this image in public/images
+          src="/lab.jpeg" // Put this image in public/images
           alt="ICT Department"
           fill
           priority

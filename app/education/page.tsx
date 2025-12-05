@@ -9,7 +9,7 @@ const EducationPage = () => {
   {/* Background Image */}
   <div className="absolute inset-0 h-full w-full">
     <Image
-      src="/education.jpg" // Put this image in public folder
+      src="/cross.jpeg" // Put this image in public folder
       alt="Department of Education"
       fill
       priority

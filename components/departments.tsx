@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import business from "../public/business.jpg";
-import socialWork from "../public/social.jpg";
-import fashion from "../public/fashion.jpg";
-import it from "../public/ict.jpg";
-import theology from "../public/theology.jpg";
+import business from "../public/business.jpeg";
+import socialWork from "../public/social.jpeg";
+import fashion from "../public/fashion1.jpeg";
+import it from "../public/lab.jpeg";
+import theology from "../public/croos1.jpeg";
 import education from "../public/education.jpg";
 
 
@@ -14,10 +14,10 @@ export default function DepartmentsSection() {
   const departments = [
      {
       name: "Department of Education",
-      image: education,
+      image: theology,
       description:
         "Shaping competent and passionate educators for the future of learning.",
-      link: "/departments/education",
+      link: "/education",
     },
     {
       name: "Department of Social Work",
@@ -47,13 +47,13 @@ export default function DepartmentsSection() {
         "Empowering creativity and innovation in the world of clothing and design.",
       link: "/fashion",
     },
-    {
-      name: "Department of Theological Studies",
-      image: education,
-      description:
-        "Providing deep biblical knowledge and pastoral training for ministry work.",
-      link: "/departments/theology",
-    },
+    // {
+    //   name: "Department of Theological Studies",
+    //   image: theology,
+    //   description:
+    //     "Providing deep biblical knowledge and pastoral training for ministry work.",
+    //   link: "/departments/theology",
+    // },
    
   ];
 

@@ -15,7 +15,7 @@ export default function Courses() {
       title: "Certificate in Social Work",
       duration: "2 Modules of 3 terms each",
       qualification: "KCSE D (plain) and above",
-      cost: "Ksh 12,500 per year",
+      cost: "Ksh 12,500 per term",
     },
   ];
 

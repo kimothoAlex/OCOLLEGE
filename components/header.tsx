@@ -25,9 +25,10 @@ export default function Header() {
           className="rounded-full md:w-16 md:h-16 lg:w-20 lg:h-20"
           priority
         />
-        <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold whitespace-nowrap">
-          Orthodox College of Africa & TTC
-        </span>
+        <span className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold break-words">
+  Orthodox College of Africa & TTC
+</span>
+
       </Navbar.Brand>
 
       {/* Mobile Toggle Button */}

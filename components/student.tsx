@@ -1,6 +1,6 @@
 import Image from "next/image";
-import libraryImage from "../public/library.jpeg"; // replace with your actual images
-import studentsImage from "../public/studentActivities.jpeg";
+import libraryImage from "../public/lib1.jpeg"; // replace with your actual images
+import studentsImage from "../public/vib.jpeg";
 import activitiesImage from "../public/cultural.jpeg";
 
 export default function StudentLife() {

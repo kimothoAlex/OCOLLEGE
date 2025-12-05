@@ -26,11 +26,13 @@ import ScrollAnimate from "../components/scrollAnimate"
 import StudentLife from "@/components/student"
 import StudentCouncil from "@/components/council"
 import SeniorManagement from "@/components/seniorManagement";
+import IntakePopup from "@/components/IntakePopup";
 
 import "animate.css"
 export default function Home() {
   return (
     <>
+     <IntakePopup />
      <section
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{

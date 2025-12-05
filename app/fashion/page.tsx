@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Courses from '@/components/fashion';
 import CallToAction from '@/components/callToAction';
-import CareerOpportunitiesICT from '@/components/careers';
+import CareerOpportunitiesFashion from '@/components/careersfashion';
 const FashionPage = () => {
   
   return (
@@ -13,7 +13,7 @@ const FashionPage = () => {
       {/* Background Image */}
       <div className="absolute inset-0  h-full w-full">
         <Image
-          src="/fashion.jpg" // Put this image in public/images
+          src="/fashion1.jpeg" // Put this image in public/images
           alt="ICT Department"
           fill
           priority
@@ -28,9 +28,7 @@ const FashionPage = () => {
           Department of Fashion & Design
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
-          Equipping students with cutting-edge skills in computing, networking,
-          programming, and emerging technologies — preparing them for success
-          in the digital era.
+          Graduates from the Fashion and Design Department are equipped with creative, technical, and entrepreneurial skills that open doors to exciting career opportunities in garment production, interior decoration, beadwork, and the wider fashion and creative industries.
         </p>
 
         {/* Call to Actions */}
@@ -52,7 +50,7 @@ const FashionPage = () => {
       
     </section>
     <Courses />
-  {/* <CareerOpportunitiesICT /> */}
+  <CareerOpportunitiesFashion />
     <CallToAction />
     </>
     

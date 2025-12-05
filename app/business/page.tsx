@@ -13,7 +13,7 @@ const BusinessPage = () => {
       {/* Background Image */}
       <div className="absolute inset-0  h-full w-full">
         <Image
-          src="/business.jpg" // Put this image in public/images
+          src="/business.jpeg" // Put this image in public/images
           alt="business Department"
           fill
           priority
@@ -28,9 +28,7 @@ const BusinessPage = () => {
           Department of Business Studies
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
-          Equipping students with cutting-edge skills in computing, networking,
-          programming, and emerging technologies — preparing them for success
-          in the digital era.
+          Graduates from the Business Department gain practical skills in management, accounting, marketing, entrepreneurship, and customer relations, preparing them for diverse career opportunities in corporate organizations, small businesses, and self-employment ventures.
         </p>
 
         {/* Call to Actions */}

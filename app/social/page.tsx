@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Courses from '@/components/social';
 import CallToAction from '@/components/callToAction';
-import CareerOpportunitiesICT from '@/components/careers';
+import CareerOpportunitiesSocial from '@/components/socialcareers';
 const FashionPage = () => {
   
   return (
@@ -13,7 +13,7 @@ const FashionPage = () => {
       {/* Background Image */}
       <div className="absolute inset-0  h-full w-full">
         <Image
-          src="/social.jpg" // Put this image in public/images
+          src="/social.jpeg" // Put this image in public/images
           alt="social work Department"
           fill
           priority
@@ -28,21 +28,19 @@ const FashionPage = () => {
           Department of Social Work
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8">
-          Equipping students with cutting-edge skills in computing, networking,
-          programming, and emerging technologies — preparing them for success
-          in the digital era.
+         Graduates from the Social Work Department are equipped with practical skills and compassionate insight to serve individuals, families, and communities.
         </p>
 
         {/* Call to Actions */}
         <div className="flex justify-center gap-4">
-          <a
+          {/* <a
             href="#courses"
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Explore Courses
-          </a>
+          </a> */}
           <a
-            href="#apply"
+            href="/apply"
             className="bg-white text-blue-900 hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold shadow-md"
           >
             Apply Now
@@ -52,7 +50,7 @@ const FashionPage = () => {
       
     </section>
     <Courses />
-    {/* <CareerOpportunitiesICT /> */}
+    <CareerOpportunitiesSocial />
     <CallToAction />
     </>
     
