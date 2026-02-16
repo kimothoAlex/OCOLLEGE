@@ -44,10 +44,9 @@ export default function AboutUsPage() {
         {/* Text Section */}
         <div className="flex flex-col justify-center items-start gap-6">
           <p className="text-base sm:text-lg md:text-xl font-serif leading-relaxed">
-            The Orthodox College of Africa is an esteemed project of the St. Clement of Alexandria
-            Philanthropic Education Center of the Church of Alexandria. Situated in the heart of
-            Kenya, within the serene grounds of the Orthodox Archbishopric of Kenya, our college
-            stands as a beacon of hope and excellence in Orthodox Africa.
+            The Orthodox College of Africa is an esteemed project of the Archdiocese of Nairobi by His Emminence Arch bishop Dr. Andreas Makarios of Nairobi Situated in the heart of Kenya,
+              within the serene grounds of the Orthodox Archbishopric of Kenya headquaters. Our college stands as a
+              beacon of hope and excellence in Orthodox Africa.
           </p>
 
           <p className="text-base sm:text-lg md:text-xl font-serif leading-relaxed">

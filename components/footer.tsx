@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
             {/* Contact Info */}
         <div className="space-y-2 text-lg">
-          <p>📍 Address: P.O. BOX 34075-00100 Nairobi, Kenya</p>
+          <p>📍 Address: P.O. BOX 46119-00100 Nairobi, Kenya</p>
           <p>📞 Phone: 0721720655/0777892344</p>
           <p>✉️ Email: <a href="mailto:octoafrica@gmail.com" className="hover:text-yellow-300">octoafrica@gmail.com</a></p>
         </div>
@@ -43,7 +43,7 @@ export default function Footer() {
           >
             Kenya National Examinations Council (KNEC)
           </Link>{" "}
-          for TVET and business courses <br /> and recognized as an official KNEC exam center.
+          for TVET, business courses & Diploma in Teacher Education <br /> and recognized as an official KNEC exam center.
         </p>
         <div className="flex justify-between">
           <Link

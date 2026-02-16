@@ -38,9 +38,9 @@ export default function IntakePopup() {
           Applications are now open at <strong>Orthodox College Of Africa – Teachers Training College</strong>.
           Secure your slot today and begin your professional journey.
         </p>
-        <p className="mt-3 font-bold font-serif text-gray-700">
+        {/* <p className="mt-3 font-bold font-serif text-gray-700">
           We wish you a Merry Christmas and a Prosperous New Year! 2026
-        </p>
+        </p> */}
 
         {/* Button */}
         <a
