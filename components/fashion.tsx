@@ -9,19 +9,16 @@ export default function Courses() {
       title: "Garment Making",
       duration: "1 Year of 3 terms",
       qualification: "Open to all",
-      cost: "Ksh 10,000 per Term",
     },
     {
       title: "Bead Work",
       duration: "3 months",
       qualification: "Open to all",
-      cost: "10,000",
     },
     {
       title: "Interior Decoration",
       duration: "3 Months",
       qualification: "Open to All",
-      cost: "Ksh 10,000",
     },
   ];
 
@@ -43,7 +40,6 @@ export default function Courses() {
               <ul className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
                 <li><strong>Duration:</strong> {course.duration}</li>
                 <li><strong>Qualification:</strong> {course.qualification}</li>
-                <li><strong>Cost:</strong> {course.cost}</li>
               </ul>
             </Card>
           ))}

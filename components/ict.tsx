@@ -9,31 +9,26 @@ export default function Courses() {
       title: "Diploma in IT",
       duration: "3 Years, 3 Modules of 3 terms each",
       qualification: "KCSE C- (minus) and above",
-      cost: "Ksh 13,500 per Term",
     },
     {
       title: "Certificate in IT",
       duration: "1 Year 3 Modules of 3 terms each",
       qualification: "KCSE D (plain) and above",
-      cost: "Ksh 12,500 per term",
     },
     {
       title: "Computer Packages",
       duration: "3 Months",
       qualification: "Open to All",
-      cost: "Ksh 4,500",
     },
     {
       title: "Web Design & Development",
       duration: "6 Months",
       qualification: "Basic Computer Skills",
-      cost: "Ksh 10,000",
     },
     {
       title: "Graphics Design",
       duration: "6 Months",
       qualification: "Basic Computer Skills",
-      cost: "Ksh 15,000",
     },
   ];
 
@@ -55,7 +50,6 @@ export default function Courses() {
               <ul className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
                 <li><strong>Duration:</strong> {course.duration}</li>
                 <li><strong>Qualification:</strong> {course.qualification}</li>
-                <li><strong>Cost:</strong> {course.cost}</li>
               </ul>
             </Card>
           ))}

@@ -9,13 +9,11 @@ export default function Courses() {
       title: "Diploma in Social Work",
       duration: " 3 Modules of 3 terms each",
       qualification: "KCSE C- (minus) and above",
-      cost: "Ksh 14,750 per Term",
     },
     {
       title: "Certificate in Social Work",
       duration: "2 Modules of 3 terms each",
       qualification: "KCSE D (plain) and above",
-      cost: "Ksh 12,500 per term",
     },
   ];
 
@@ -37,7 +35,6 @@ export default function Courses() {
               <ul className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
                 <li><strong>Duration:</strong> {course.duration}</li>
                 <li><strong>Qualification:</strong> {course.qualification}</li>
-                <li><strong>Cost:</strong> {course.cost}</li>
               </ul>
             </Card>
           ))}

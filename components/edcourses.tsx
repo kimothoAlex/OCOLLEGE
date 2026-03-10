@@ -9,19 +9,16 @@ export default function Courses() {
       title: "Diploma in DTE First Year",
       duration: "3 terms (3 months each)",
       qualification: "KCSE C (plain) and above",
-      cost: "Ksh 21,500 per Term",
     },
     {
       title: "Diploma in DTE Second Year",
       duration: "3 terms (3 months each)",
       qualification: "Completed First Year",
-      cost: "Ksh 19,500 per Term",
     },
     {
       title: "Diploma in DTE Third Year",
       duration: "3 terms (3 months each)",
       qualification: "Completed Second Year",
-      cost: "Ksh 18,500 per Term",
     },
   
   ];
@@ -44,7 +41,7 @@ export default function Courses() {
               <ul className="mt-4 space-y-2 text-gray-700 dark:text-gray-300">
                 <li><strong>Duration:</strong> {course.duration}</li>
                 <li><strong>Qualification:</strong> {course.qualification}</li>
-                <li><strong>Cost:</strong> {course.cost}</li>
+                
               </ul>
             </Card>
           ))}
