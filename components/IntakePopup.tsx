@@ -30,7 +30,7 @@ export default function IntakePopup() {
 
         {/* Title */}
         <h2 className="text-2xl font-bold text-blue-700">
-          May Intake Ongoing
+          September Intake Ongoing
         </h2>
 
         {/* Message */}
